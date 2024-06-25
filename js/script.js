@@ -10,10 +10,13 @@ const fullPrice = km * 0.21
 //creo una variabile a sconto= 0:
 let discount = 0;
 
-//if
+//if var
 
 if (age < 18) {
     discount = 20;
 } else if (age > 65) {
     discount = 40;
 }
+
+//creo una costante prezzo finale al quale assegno valore : prezzo biglietto - (prezzo biglietto * sconto età / 100)
+const discountPrice = fullPrice - (fullPrice * discount / 100);
