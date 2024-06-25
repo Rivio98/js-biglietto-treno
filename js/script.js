@@ -20,3 +20,6 @@ if (age < 18) {
 
 //creo una costante prezzo finale al quale assegno valore : prezzo biglietto - (prezzo biglietto * sconto età / 100)
 const discountPrice = fullPrice - (fullPrice * discount / 100);
+
+//innesto il prezzo finale nell' HTML
+document.getElementById('priceTicket').innerHTML = discountPrice.toFixed(2) + ' ' + '&euro;'
