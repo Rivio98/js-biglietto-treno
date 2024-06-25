@@ -7,6 +7,13 @@ const age = prompt('Quanti anni hai?')
 //creo una costante per il prezzo del biglietto  (con formula km * 0.21) ai quali assegno il valore
 const fullPrice = km * 0.21
 
-//creao una variabile a sconto= 0:
-
+//creo una variabile a sconto= 0:
 let discount = 0;
+
+//if
+
+if (age < 18) {
+    discount = 20;
+} else if (age > 65) {
+    discount = 40;
+}
