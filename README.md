@@ -19,8 +19,8 @@ Buon pranzo a dopo.
 3. creo una costante per il prezzo del biglietto  (con formula km * 0.21) ai quali assegno il valore
 
 4. creao una variabile a sconto= 0:
-se L'utente è ha meno di 18 anni avrà diritto a sconto = 20
-se l'utente è over 65 avrà diritto a sconto = 40
+se L'utente è ha meno di 18 anni avrà diritto a sconto = 20%
+se l'utente è over 65 avrà diritto a sconto = 40%
 
 5. creo una costante prezzo finale al quale assegno valore : prezzo biglietto - (prezzo biglietto * sconto età / 100)
 
